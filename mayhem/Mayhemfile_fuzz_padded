@@ -1,0 +1,9 @@
+project: savantenvs/simdjson
+target: fuzz_padded
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_padded/testsuite
+cmds:
+  - cmd: /mayhem/mayhem/bin/fuzz_padded
+    libfuzzer: true
+    timeout: 10

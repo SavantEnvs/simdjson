@@ -1,0 +1,9 @@
+project: savantenvs/simdjson
+target: fuzz_minify
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_minify/testsuite
+cmds:
+  - cmd: /mayhem/mayhem/bin/fuzz_minify
+    libfuzzer: true
+    timeout: 10

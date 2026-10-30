@@ -1,0 +1,9 @@
+project: savantenvs/simdjson
+target: fuzz_fractured_json
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_fractured_json/testsuite
+cmds:
+  - cmd: /mayhem/mayhem/bin/fuzz_fractured_json
+    libfuzzer: true
+    timeout: 10

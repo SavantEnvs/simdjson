@@ -1,0 +1,9 @@
+project: savantenvs/simdjson
+target: fuzz_dump_raw_tape
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_dump_raw_tape/testsuite
+cmds:
+  - cmd: /mayhem/mayhem/bin/fuzz_dump_raw_tape
+    libfuzzer: true
+    timeout: 10

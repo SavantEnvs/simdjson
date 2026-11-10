@@ -1,0 +1,9 @@
+project: savantenvs/simdjson
+target: fuzz_ondemand_atpointer-mined-beb18bd
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_ondemand_atpointer-mined-beb18bd/testsuite
+cmds:
+  - cmd: /mayhem/mayhem/bin/fuzz_ondemand_atpointer
+    libfuzzer: true
+    timeout: 10

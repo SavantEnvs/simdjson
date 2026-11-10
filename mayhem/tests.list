@@ -1,0 +1,22 @@
+# <test binary relative to build-tests/> TAB <marker that must appear in its stdout>
+tests/dom/basictests	Basic tests are ok.
+tests/dom/errortests	Error tests are ok.
+tests/dom/integer_tests	All ok.
+tests/dom/pointercheck	Success!
+tests/dom/json_path_tests	Success!
+tests/dom/document_tests	document tests are ok.
+tests/dom/document_stream_tests	document_stream tests are ok.
+tests/dom/unpadded_tests	parse_unpadded tests are ok.
+tests/dom/array_reverse_tests	Success!
+tests/unicode_tests	running hard-coded UTF-8 tests... tests ok.
+tests/minify_tests	Parsing minify and calling minify again results in the same content.
+tests/prettify_tests	Parsing prettify and calling prettify again results in the same content.
+tests/padded_string_tests	All tests passed!
+tests/ondemand/ondemand_array_tests	Success!
+tests/ondemand/ondemand_object_tests	Success!
+tests/ondemand/ondemand_json_pointer_tests	Success!
+tests/ondemand/ondemand_number_tests	Success!
+tests/ondemand/ondemand_scalar_tests	Success!
+tests/ondemand/ondemand_error_tests	Success!
+tests/ondemand/ondemand_parse_api_tests	Success!
+tests/ondemand/ondemand_key_string_tests	Success!

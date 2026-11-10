@@ -1,0 +1,5 @@
+/build-fuzz/
+/build-fuzz-standalone/
+/build-tests/
+/bin/
+/obj/

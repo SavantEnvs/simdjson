@@ -10,7 +10,7 @@ tests/dom/unpadded_tests	parse_unpadded tests are ok.
 tests/dom/array_reverse_tests	Success!
 tests/unicode_tests	running hard-coded UTF-8 tests... tests ok.
 tests/minify_tests	Parsing minify and calling minify again results in the same content.
-tests/prettify_tests	Actual indentation and round-trip prettify checks passed.
+tests/prettify_tests	Parsing prettify and calling prettify again results in the same content.
 tests/padded_string_tests	All tests passed!
 tests/ondemand/ondemand_array_tests	Success!
 tests/ondemand/ondemand_object_tests	Success!
